@@ -166,14 +166,14 @@ hr {
 
 @media (max-width: 800px) {
   .intro{
-     width: 80%;
+     width: 90%;
      text-align: left;
    }
   .skill-row {
     width: 90%;
   }
   p {
-    line-height: 1.5;
+    line-height: 1.3;
   }
    .web-dev {
      padding-top: 15%;

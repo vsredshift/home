@@ -63,7 +63,7 @@ hr {
 }
 
 .btn:hover {
-  opacity: 60%;
+  opacity: .60;
 }
 
 .navbar {
@@ -106,6 +106,9 @@ hr {
   text-decoration: none;
 }
 
+.footer-link:hover {
+  color:  #40514E;
+}
 .footer {
   color: #EAF6F6;
   margin: 20px auto;
@@ -159,4 +162,14 @@ hr {
   margin: 100px auto;
   text-align: left;
   width: 50%;
+}
+
+@media (max-width: 800px) {
+  .intro{
+     width: 80%;
+   }
+
+   .web-dev {
+     padding-top: 15%;
+   }
 }

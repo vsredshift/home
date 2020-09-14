@@ -165,18 +165,16 @@ hr {
 }
 
 @media (max-width: 800px) {
+  .intro{
+     width: 80%;
+     text-align: left;
+   }
+  .skill-row {
+    width: 90%;
+  }
   p {
     line-height: 1.5;
   }
-  .skill-row{
-     width: 90%;
-   }
-
-  .intro{
-    width: 90%;
-    text-align: left;
-   }
-
    .web-dev {
      padding-top: 15%;
    }

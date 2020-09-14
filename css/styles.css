@@ -150,8 +150,8 @@ hr {
 
 .intro {
   margin: 40px auto 60px;
-  text-align: left;
-  width: 30%;
+  text-align: justify;
+  width: 50%;
 }
 
 .skill-row {

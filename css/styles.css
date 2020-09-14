@@ -165,8 +165,11 @@ hr {
 }
 
 @media (max-width: 800px) {
+  p {
+    line-height: 1.5;
+  }
   .intro{
-     width: 80%;
+     width: 90%;
    }
 
    .web-dev {

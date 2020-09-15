@@ -179,10 +179,6 @@ a.attribution:hover {
 /* Media Queries */
 
 @media screen and (max-width: 800px) {
-  body {
-    font-size: 14px;
-  }
-  
   .text {
     width: 80%;
     text-align: left;
@@ -192,7 +188,12 @@ a.attribution:hover {
     width: 90%;
   }
 
+  .skill-title {
+    /* padding-top: 10%; */
+  }
+
   .web-dev {
-    padding-top: 15%;
+    
+    /* padding-top: 15%; */
   }
 }

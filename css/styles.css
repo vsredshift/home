@@ -179,11 +179,27 @@ a.attribution:hover {
 /* Media Queries */
 
 @media screen and (max-width: 800px) {
-  .text {
-    width: 80%;
-    text-align: left;
+  h1 {
+    font-size: 3rem;
   }
 
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .top-container {
+    padding-top: 50px;
+  }
+  .middle-container {
+    margin-top: 50px;
+  }
+  .text {
+    width: 80%;
+    text-align: center;
+  }
+  .circ {
+    width: 40%;
+  }
   .skill-row {
     width: 90%;
   }
@@ -193,7 +209,15 @@ a.attribution:hover {
   }
 
   .web-dev {
-    
+
     /* padding-top: 15%; */
+  }
+  .button {
+    line-height: 2;
+  }
+
+  .footer-link{
+    font-size: 0.9rem;
+    margin: 15px;
   }
 }

@@ -175,6 +175,9 @@ a.attribution:hover {
   color: #EAF6F6;
 }
 
+.project-header{
+  font-size: 4rem;
+}
 
 /* Media Queries */
 
@@ -219,5 +222,13 @@ a.attribution:hover {
   .footer-link{
     font-size: 0.9rem;
     margin: 15px;
+  }
+
+  .projects {
+    margin-top: 100px;
+  }
+
+  .project-page {
+    margin:0;
   }
 }
